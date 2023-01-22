@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+	</head>
+	<body>
+		<h3>You can make the following GET requests<h3>
+		<ul>
+			<li>/file/sample.html -- returns the content of the file sample.html</li>
+			<li>/json -- returns a json of the /random request</a></li>
+			<li>/random -- returns index.html</a></li>
+			<li>/mulitply -- returns the multiplication of two numbers </li>
+			<li>/github -- returns an abbreviated JSON of a users GitHub repo </li>
+			<li>/rickandmorty -- get rick and morty lines. May contain foul language! </li>
+			<ul>
+				<li> Params: paragraphs={num} quotes={num}</li>
+				<li>Example: <a href="/rickandmorty?paragraphs=2&quotes=2">/rickandmorty?paragraphs=2&amp;quotes=2 </a> </li>
+				<p> Returns paragraphs of text to use instead of lorem ipsum </p>
+			</ul>
+			<li>/ageguesser  -- guess the average age of your name.  </li>
+			<ul>
+				<li> Params: name={name} age={num}</li>
+				<li>Example:  <a href="/ageguesser?name=bella&age=32"> /ageguesser?name=bella&amp;age=32 </a></li>
+				<p> Use demographics to guess the age of a person by name alone.
+					Returns the percentage difference between the actual age and demographic based guess. </p>
+			</ul>
+		</ul>
+		<h3>File Structure in www (you can use /file/www/FILENAME):</h3>
+		${links}
+	</body>
+</html>
